@@ -1,0 +1,9 @@
+# creating a list to store the value getting from the loop
+l=[]
+# using for loop
+for i in range(3):    
+  a=list(map(int,input().split())) # using map and split for getting multiple inputs
+  l.append(a)
+print(*l[0]) #*asterisk to unpack the list
+print(*l[1])
+print(*l[2])
